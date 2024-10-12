@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>product-landing-page</title>
+    <!-- #Original-telas de 800px até 1400px -->
+    <link rel="stylesheet" href="styles.css" media="all">
+    <!-- #Telas maiores que 1400px -->
+    <link rel="stylesheet" href="stiles2.css" media="screen and (min-width: 1400px)">
+    <!-- #Telas de 600px até 800px -->
+    <link rel="stylesheet" href="stiles3.css" media="screen and (min-width: 600px) and (max-width: 800px)">
+    <!-- #Telas de 300px até 600px -->
+    <link rel="stylesheet" href="stiles4.css" media="screen and (min-width: 300px) and (max-width: 600px)">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+</head>
+<body>
+    <!-- #inicio -->
+    <header id="header">
+            <img id="header-img" src="https://cdn.freecodecamp.org/testable-projects-fcc/images/product-landing-page-logo.png" alt="original trombones logo">
+            <nav id="nav-bar">
+                <ul class="ul-header">
+                    <li><a class="nav-link" href="#features">Features</a></li>
+                    <li><a class="nav-link" href="#how-it-works">How It Works</a></li>
+                    <li><a class="nav-link" href="#pricing">Pricing</a></li>
+                </ul>
+            </nav>
+    </header>
+    <main>
+        <!-- #formulário -->
+        <form id="form" action="https://www.freecodecamp.com/email-submit" method="get">
+            <fieldset>
+                <legend>Handcrafted, home-made masterpieces</legend>
+                <input type="email" name="email" id="email" placeholder="Enter your email address" required>
+                <input id="submit" type="submit" value="GET STARTED">
+            </fieldset>
+        </form>
+        <!-- #meio -->
+        <div class="meio" id="features">
+            <i class="fa fa-3x fa-fire tamanho"></i>
+            <h2 id="titulo_meio">Premium Materials</h2>
+            <p>Our trombones use the shiniest brass which is sourced locally. This will increase the longevity of your purchase.</p>
+            <i class="fa fa-3x fa-truck tamanho"></i>
+            <h2 class="titulo-meio">Fast Shipping</h2>
+            <p>We make sure you recieve your trombone as soon as we have finished making it. We also provide free returns if you are not satisfied.</p>
+            <i class="fa fa-3x fa-battery-full tamanho" aria-hidden="true"></i>
+            <h2 class="titulo-meio">Quality Assurance</h2>
+            <p>For every purchase you make, we will ensure there are no damages or faults and we will check and test the pitch of your instrument.</p>
+        </div>
+
+        <div id="how-it-works">
+            <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/y8Yv4pnO7qc?si=uBO4uAVoMLhIV8My" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+        <!-- #fim -->
+        <div class="fim" id="pricing">
+            <div class="container">
+                <h2>TENOR TROMBONE</h2>
+                <p class="texto-esp">$600</p>
+                <p>Lorem ipsum.</p>
+                <p>Lorem ipsum.</p>
+                <p>Lorem ipsum dolor.</p>
+                <p>Lorem ipsum.</p>
+                <button>Select</button>
+            </div>
+
+            <div class="container">
+                <h2>BASS TROMBONE</h2>
+                <p class="texto-esp">$900</p>
+                <p>Lorem ipsum.</p>
+                <p>Lorem ipsum.</p>
+                <p>Lorem ipsum dolor.</p>
+                <p>Lorem ipsum.</p>
+                <button>Select</button>
+            </div>
+
+            <div class="container">
+                <h2>VALVE TROMBONE</h2>
+                <p class="texto-esp">$1200</p>
+                <p>Plays similar to a Trumpet</p>
+                <p>Great for Jazz Bands</p>
+                <p>Lorem ipsum dolor.</p>
+                <p>Lorem ipsum.</p>
+                <button>SELECT</button>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <ul class="ul-footer">
+            <li><a class="nav-link" href="#">Privacy</a></li>
+            <li><a class="nav-link" href="#">Terms</a></li>
+            <li><a class="nav-link" href="#">Contact</a></li>
+        </ul>
+        <p id="texto-footer">Copyright 2016, Original Trombones</p>
+    </footer>
+</body>
+</html>

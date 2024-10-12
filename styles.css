@@ -1,0 +1,175 @@
+@charset "UTF-8";
+
+/*Original - telas de 800px até 1400px*/
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgba(223, 223, 223, 0.692);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p{
+    font-size: 20px;
+}
+
+/*header*/
+#header-img {
+    width: 400px;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+nav {
+    display: flex;
+    position: relative;
+    top: -60px;
+    justify-content: end;
+    margin: 10px;
+}
+
+ul{
+    display: flex;
+}
+
+li {
+    margin-left: 10px;
+    color: rgba(255, 192, 203, 0);
+}
+
+ul > li > a {
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+}
+
+/*formulário*/
+fieldset {
+    border: none;
+    margin-top: 20px;
+}
+
+legend {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+input {
+    display: block;
+    margin: 30px auto 20px auto;
+}
+
+#email {
+    width: 400px;
+    height: 40px;
+}
+
+#submit {
+    width: 200px;
+    height: 40px;
+    background-color: orange;
+    font-weight: bold;
+    font-size: 20px;
+    border: none;
+    margin-bottom: 100px;
+}
+
+/*main-meio*/
+.titulo-meio {
+    display: inline;
+    margin-left: 14px;
+}
+
+#titulo_meio {
+    display: inline;
+    margin-left: 40px;
+}
+
+.meio {
+    width: 95%;
+}
+
+.meio p{
+    margin-left: 180px;
+    margin-bottom: 100px;
+    text-align: justify;
+}
+
+.tamanho {
+    color: orange;
+    display: inline;
+    position: relative;
+    top: 10px;
+    margin-left: 100px;
+}
+
+#video {
+    display: block;
+    margin: 80px auto 60px auto;
+}
+
+/*main-fim*/
+div.container {
+    display: block;
+    margin: auto;
+    border: 1px solid black;
+    width: 400px;
+    margin-bottom: 10px;
+    height: 340px;
+    padding: 20px;
+}
+
+div.container h2, p{
+    text-align: center;
+}
+
+div.container h2{
+    background-color: rgba(128, 128, 128, 0.384);
+    width: 400px;
+    margin: -20px 0px 10px -22px;
+    padding: 10px;
+}
+
+div.container p{
+    font-size: 20px;
+    line-height: 40px;
+}
+
+.texto-esp {
+    font-size: 2em !important;
+    font-weight: bold;
+}
+
+div.container button {
+    display: block;
+    margin: 0 auto 0 auto;
+    width: 120px;
+    height: 40px;
+    position: relative;
+    top: 20px;
+    background-color: orange;
+    border: none;
+}
+
+/*footer*/
+footer {
+    margin: 80px 30px 0px 0;
+    width: 100%;
+    padding: 30px 30px;
+    background-color: rgba(128, 128, 128, 0.384);
+}
+
+footer li {
+    font-weight: bold;
+    margin: 10px;
+}
+
+footer ul, #texto-footer{
+    display: flex;
+    justify-content: end;
+}

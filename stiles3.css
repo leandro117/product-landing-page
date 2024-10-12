@@ -1,0 +1,38 @@
+/*Telas de 600px até 800px*/
+
+/*header*/
+#header {
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    background-color: aliceblue;
+    z-index: 1;
+}
+
+#header-img {
+    display: block;
+    margin: auto;
+}
+
+nav {
+    top: 0;
+}
+
+ul {
+    display: block;
+    margin: auto;
+}
+
+li {
+    margin-bottom: 20px;
+}
+
+/*formulário*/
+form {
+    margin-top: 250px;
+}
+
+/*main-meio*/
+#video {
+    width: 100%;
+}

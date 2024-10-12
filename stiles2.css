@@ -1,0 +1,36 @@
+/*Telas maiores que 1400px*/
+
+/*header*/
+.ul-header li {
+    margin-right: 100px;
+}
+
+/*main-meio*/
+.meio {
+    width: 70%;
+    margin: auto;
+}
+
+#video {
+    width: 50%;
+    height: 500px;
+}
+
+/*main-fim*/
+div.container {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.fim {
+    margin: auto;
+    width: 74%;
+}
+
+/*footer*/
+footer {
+    
+    width: 78%;
+    margin: 30px auto 0 auto;
+}
+

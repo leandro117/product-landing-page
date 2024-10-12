@@ -1,0 +1,106 @@
+/*Telas de 300px até 600px*/
+
+/*header*/
+#header {
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    background-color: aliceblue;
+    z-index: 1;
+}
+
+#header-img {
+    width: 90%;
+    display: block;
+    margin: auto;
+}
+
+nav {
+    top: 0;
+}
+
+ul {
+    display: block;
+    margin: auto;
+}
+
+li {
+    margin-bottom: 20px;
+}
+
+/*formulario*/
+form {
+    margin-top: 250px;
+}
+
+legend {
+    font-size: 1.3em;
+}
+
+#email {
+    width: 250px;
+}
+
+#submit {
+    width: 150px;
+}
+
+/*meio*/
+.titulo-meio {
+    text-align: center !important;
+    display: block;
+}
+
+#titulo_meio {
+    text-align: center !important;
+    display: block;
+}
+
+.meio {
+    width: 100%;
+}
+
+.meio p{
+    text-align: center;
+    margin-left: 10px;
+    margin-bottom: 100px;
+}
+
+.tamanho {
+    display: none !important;
+}
+
+#video {
+    width: 99%;
+}
+
+/*fim*/
+div.container {
+    width: 290px;
+}
+
+div.container h2, p{
+    text-align: center;
+}
+
+div.container h2{
+    background-color: rgba(128, 128, 128, 0.384);
+    width: 290px;
+}
+
+/*footer*/
+footer {
+    margin: 80px 30px 0px 0;
+    width: 100%;
+    padding: 30px 30px;
+    background-color: rgba(128, 128, 128, 0.384);
+}
+
+footer ul{
+    margin-right: -30px;
+}
+
+#texto-footer{
+    margin-right: -20px;
+    font-size: 0.9rem;
+}
