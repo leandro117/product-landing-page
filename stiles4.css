@@ -49,11 +49,13 @@ legend {
 .titulo-meio {
     text-align: center !important;
     display: block;
+    margin: auto;
 }
 
 #titulo_meio {
     text-align: center !important;
     display: block;
+    margin: auto;
 }
 
 .meio {
@@ -61,9 +63,10 @@ legend {
 }
 
 .meio p{
-    text-align: center;
-    margin-left: 10px;
-    margin-bottom: 100px;
+    text-align: justify;
+    margin: auto;
+    width: 80%;
+    margin-bottom: 20px;
 }
 
 .tamanho {
