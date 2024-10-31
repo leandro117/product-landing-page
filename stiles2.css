@@ -18,8 +18,9 @@
 
 /*main-fim*/
 div.container {
-    display: inline-block;
-    margin-right: 10px;
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
 }
 
 .fim {
@@ -29,7 +30,6 @@ div.container {
 
 /*footer*/
 footer {
-    
     width: 78%;
     margin: 30px auto 0 auto;
 }
